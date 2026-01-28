@@ -15,14 +15,13 @@ After fine-tuning, the model is evaluated using a test dataset. The evaluation i
 Here is the directory structure of the project:
 ```
 blast-furnace-fault-diagnosis/
-├── train.py              # Training script to train the model
-├── evaluate.py           # Evaluation script to evaluate model performance
-├── model_load.py         # Model loading and inference functions
-├── requirements.txt      # List of project dependencies
-├── README.md             # This file
-├── data/                 # Data folder containing training and test datasets
-│   ├── train.jsonl       # Training dataset
-│   └── test.jsonl        # Test dataset
-└── models/               # Folder to store pretrained and fine-tuned models
-    └── pretrained/       # Folder for storing the pretrained model
+├── LLM-BFFD.ipynb          # Jupyter notebook containing all code and analysis
+├── data/                   # Data folder containing training and test datasets
+│   ├── traindataset.jsonl         # Training dataset
+│   └── testdataset.jsonl          # Test dataset
+├── models/                 # Folder to store pretrained and fine-tuned models
+│   └── pretrained/         # Pretrained models
+├── README.md               # Project documentation
+└── outputs/                # Folder to store output files, such as models and logs
+
 ```
